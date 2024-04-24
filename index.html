@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Sharma</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/566193039e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/LOGO_HIMANSHU.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Himanshu<br></span>from West&nbsp;Bengal</h1>
+                <p>I am Java Devloper</p>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/69674904.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam placeat veritatis iusto odit, blanditiis minus obcaecati, consequatur impedit ratione culpa aut expedita, voluptatem cum saepe nobis velit ea asperiores iure. Necessitatibus itaque, perspiciatis impedit soluta dolores cum recusandae ab asperiores pariatur adipisci explicabo praesentium illo! Doloribus impedit perspiciatis nulla eligendi.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>devloper</li>
+                            <li><span>Web Devlopment</span><br>Web app Devlopment, HTML, CSS, JavaScript</li>
+                            <li><span>Data base</span><br>DBMS, MySql, MongoDb</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Insert</span><br>Insert</li>
+                            <li><span>Insert</span><br>Insert</li>
+                            <li><span>Insert</span><br>Insert</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Insert</span><br>Insert</li>
+                            <li><span>Insert</span><br>Insert</li>
+                            <li><span>Insert</span><br>Insert</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-code" aria-hidden="true">
+                    <h2>Java Devlopment</h2></i>
+                    <p>The Student Database Management System is a project designed to efficiently manage student information, courses, and grades. Utilizing Java for backend logic, PHP for server-side scripting, and HTML/CSS for the frontend interface,</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-html5" aria-hidden="true"></i>
+                    <h2>Web Design</h2>
+                    <p>The Portfolio Website project aims to create a personalized online platform showcasing My skills, projects, and experiences. Using HTML, CSS, and JavaScript, the website features sections such as a Home page, About section, Skills overview, resume/CV, contact form and web hosting</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-database" aria-hidden="true"></i>
+                    <h2>Data Base</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At fugit laborum, repellendus culpa aspernatur vel facere asperiores beatae sed assumenda esse quo numquam labore a!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- protfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/java.png" alt="">
+                    <div class="layer">
+                        <h3>Student Database Management</h3>
+                        <p>The Student Database Management System is a project designed to efficiently manage student information, courses, and grades. Utilizing Java for backend logic, PHP for server-side scripting, and HTML/CSS for the frontend interface,</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/llms.png" alt="">
+                    <div class="layer">
+                        <h3>Income Tax-Gpt</h3>
+                        <p>
+                            The Income-Tax GPT project employs advanced language models like GPT to simplify tax-related tasks. Using natural language processing, it offers precise information on calculations, deductions, and regulations. Users interact with the model for personalized advice, optimizing tax returns. The project streamlines tax processes and enhances user comprehension of taxation complexities.</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/portfolio.png">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>The Portfolio Website project aims to create a personalized online platform showcasing My skills, projects, and experiences. Using HTML, CSS, and JavaScript, the website features sections such as a Home page, About section, Skills overview, resume/CV, contact form and web hosting</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See more</a>
+        </div>
+    </div>
+    <!-- Contact -->
+
+<div class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p src="mailto=himanshu1sharma88@gmail.com"><i class="fa fa-paper-plane" aria-hidden="true"></i> himanshu1sharma88@gmail.com</p>
+                <p><i class="fa fa-phone" aria-hidden="true"></i> +91 9831924013</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/himanshusharma212131/" target="_blank"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
+                    <a href="https://x.com/areehimanshu" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://github.com/ANSXX" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/areehimanshu/" target="_blank"><i class="fa-brands fa-instagram"></i><a>    
+                </div>
+                <!-- CV  --><a href="" download class="btn btn2">Downlaod CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" row="6" cols="
+                    " placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    <button type="reset" class="btn btn2">Refresh</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © by <i class="fa fa-heart" aria-hidden="true"></i> Himanshu</p>
+    </div>
+</div>
+
+
+</body>
+</html>
