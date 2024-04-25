@@ -189,6 +189,7 @@ nav ul li a:hover::after{
 padding: 50px 0;
 }
 .work-list{
+    /* height:60ch; */
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 45px;
@@ -200,7 +201,7 @@ padding: 50px 0;
     overflow: hidden;
 }
 .work img{
-    width: 40%;
+    width: 100%;
     border-radius: 25px;
     display: block;
     transition:transform 0.5s ;
